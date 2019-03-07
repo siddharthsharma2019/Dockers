@@ -3,7 +3,7 @@
     stages {
         stage('Copying') { 
             steps {
-             echo " This is for copying app file by pipeline .!!" 
+             echo " This is for copying app file by pipeline .....!!" 
             	}
         	}           
     	}

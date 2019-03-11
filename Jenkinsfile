@@ -9,8 +9,7 @@
 			stage('Indexfile deployment') { 
             steps {
 				sh "cd /var/lib/jenkins/workspace/SidDocker/"
-                sh "sudo yum -y install httpd"
-				sh "cp -R index.html /var/www/html/"
+                sh "cp -R index.html /var/www/html/"
 				echo " This is for Copt index file" 
 				}
 			}

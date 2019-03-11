@@ -16,7 +16,7 @@
 			stage('Docker deployment') { 
             steps {
                 sh "docker build -t webserver:v1 ."
-				sh "docker run -d -p 80:80 webserver:v1"
+				sh "docker run -d -p 81:80 webserver:v1"
                 echo " This is from docker file" 
 				}
 			}			
